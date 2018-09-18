@@ -10,7 +10,7 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          This is a demo site of&nbsp;the <strong>heroBlog</strong> GatsbyJS starter
+          This is a prototype site of&nbsp;the <strong>Bear-software</strong> blog.
         </h1>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
@@ -22,8 +22,9 @@ const Hero = props => {
         .hero {
           align-items: center;
           background: ${theme.hero.background};
-          background-image: url(${backgrounds.mobile});
-          background-size: cover;
+          // background-image: url(${backgrounds.mobile});
+          // background-repeat: repeat;
+          // background-size: centre;
           color: ${theme.text.color.primary.inverse};
           display: flex;
           flex-flow: column nowrap;

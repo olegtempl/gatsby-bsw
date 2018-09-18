@@ -10,9 +10,9 @@ const Author = props => {
   return (
     <React.Fragment>
       <div className="author">
-        <div className="avatar">
+        {/* <div className="avatar">
           <img src={avatar} alt={config.siteTitle} />
-        </div>
+        </div> */}
         <div className="note" dangerouslySetInnerHTML={{ __html: note }} />
       </div>
 

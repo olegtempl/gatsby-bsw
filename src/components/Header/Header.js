@@ -7,7 +7,7 @@ import { ScreenWidthContext, FontLoadedContext } from "../../layouts";
 import config from "../../../content/meta/config";
 import Menu from "../Menu";
 
-import avatar from "../../images/jpg/avatar.jpg";
+import avatar from "../../images/png/logo.png";
 
 class Header extends React.Component {
   state = {
@@ -36,14 +36,14 @@ class Header extends React.Component {
     return (
       <React.Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
-          <Link to="/" className="logoType">
-            <div className="logo">
+          <Link to="/" className="logo">
+            <div>
               <img src={avatar} alt={config.siteTitle} />
             </div>
-            <div className="type">
+            {/* <div className="type">
               <h1>{config.headerTitle}</h1>
               <h2>{config.headerSubTitle}</h2>
-            </div>
+            </div> */}
           </Link>
           <FontLoadedContext.Consumer>
             {loaded => (
@@ -78,13 +78,15 @@ class Header extends React.Component {
             top: 0;
             width: 100%;
             align-items: center;
+            // border-bottom: 1px solid green;
 
             :global(a.logoType) {
               align-items: center;
               display: flex;
               flex-direction: "column";
               color: ${theme.text.color.primary};
-
+              height: 154px;
+              width: 154px;
               .logo {
                 flex-shrink: 0;
               }
@@ -111,13 +113,13 @@ class Header extends React.Component {
           }
 
           .logo {
-            border-radius: 65% 75%;
+            border-radius: 8%;
             border: 1px solid #eee;
             display: inline-block;
-            height: 44px;
+            height: 60%;
             margin: ${theme.space.inline.default};
             overflow: hidden;
-            width: 44px;
+            width: 60%;
             transition: all 0.5s;
 
             .homepage & {
@@ -127,6 +129,8 @@ class Header extends React.Component {
 
             img {
               width: 100%;
+              height: 154px;
+              width: 254px;
             }
           }
 

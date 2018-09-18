@@ -1,17 +1,17 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "Bear-software blog", // <title>
+  shortSiteTitle: "Bear-software", // <title> ending for posts and pages
+  siteDescription: "Personal blog is a bear-software and oleg_templ.",
+  siteUrl: "http://bear-software.by/",
   pathPrefix: "",
   siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteLanguage: "ru",
   // author
-  authorName: "greg lobinski",
+  authorName: "Oleg medvedev",
   authorTwitterAccount: "greglobinski",
   // info
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "author",
+  headerSubTitle: "..",
   // manifest.json
   manifestName: "HeroBlog - a GatsbyJS starter",
   manifestShortName: "HeroBlog", // max 12 characters
@@ -21,7 +21,7 @@ module.exports = {
   manifestDisplay: "standalone",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
+    { name: "github", url: "https://github.com/olegtempl" },
     { name: "twitter", url: "https://twitter.com/greglobinski" },
     { name: "facebook", url: "http://facebook.com/greglobinski" }
   ]

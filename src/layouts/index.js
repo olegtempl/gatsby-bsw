@@ -88,7 +88,7 @@ class Layout extends React.Component {
             <React.Fragment>
               <Header path={this.props.location.pathname} pages={pages} theme={this.state.theme} />
               <main>{children()}</main>
-              <Footer html={footnoteHTML} theme={this.state.theme} />
+              {/* <Footer html={footnoteHTML} theme={this.state.theme} /> */}
 
               {/* --- STYLES --- */}
               <style jsx>{`
@@ -169,7 +169,7 @@ export const postQuery = graphql`
           }
           frontmatter {
             title
-            menuTitle
+
           }
         }
       }
