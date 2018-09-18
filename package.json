@@ -65,6 +65,10 @@
     "stylelint": "stylelint src/**/*.js",
     "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
     "babel-eslint": "^8.2.6",
